@@ -35,8 +35,8 @@ import {
 } from "reactstrap";
 
 // core components
-import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
-import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
+import FinalNavbar from "components/Navbars/FinalNavbar.js";
+import UtbBannerHeader from "components/Headers/utbbannerHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
 
 function ProfilePage() {
@@ -57,8 +57,8 @@ function ProfilePage() {
   });
   return (
     <>
-      <ExamplesNavbar />
-      <ProfilePageHeader />
+      <FinalNavbar />
+      <UtbBannerHeader />
       <div className="section profile-content">
         <Container>
           <div className="owner">
